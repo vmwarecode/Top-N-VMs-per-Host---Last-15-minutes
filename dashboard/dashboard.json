@@ -1,0 +1,262 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1445419395458,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "a7c98511-1aa1-4941-8dd0-b626597a32a0",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Top-N VMs by Host (Last 15 minutos)",
+      "rank": 75,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "af67c3eb-b10e-4a1a-8b0a-436cfd8d710e",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4364f44d-01f0-4786-8702-f9343662fca3",
+            "widgetIdReceiver": "9715b65c-ced9-417d-a461-a86dea85f9e4"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4364f44d-01f0-4786-8702-f9343662fca3",
+            "widgetIdReceiver": "a3847a07-ac46-4475-9a0c-33d006eeef03"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4364f44d-01f0-4786-8702-f9343662fca3",
+            "widgetIdReceiver": "d440c054-0c80-4a48-b438-98e8c25b7b1a"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Total Number of VMs",
+                  "metricKey": "summary|total_number_vms",
+                  "metricName": "Summary|Total Number of VMs",
+                  "resourceKindId": "resourceKind:id:0_::_"
+               }],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resource": [{
+                  "id": "resource:id:0_::_",
+                  "name": "CLUSTER"
+               }],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Hosts"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 9,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "4364f44d-01f0-4786-8702-f9343662fca3",
+            "states": [{
+               "key": "permResGrid_widget_a7c98511-1aa1-4941-8dd0-b626597a32a0_4364f44d-01f0-4786-8702-f9343662fca3",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A184.72726440429688%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A128.60000610351562%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A200.81817626953125%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Hosts",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metric": {
+                  "metricKey": "cpu|demandPct",
+                  "name": "CPU|Demand (%)"
+               },
+               "mode": "all",
+               "percentileValue": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": -1},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Top-N Servers  - CPU Usage (%) on Selected Host",
+               "topOption": "metricsHighestUtilization"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 1,
+               "y": 7
+            },
+            "height": 381,
+            "id": "9715b65c-ced9-417d-a461-a86dea85f9e4",
+            "title": "Top-N Servers  - CPU Usage (%) on Selected Host",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metric": {
+                  "metricKey": "mem|usage_average",
+                  "name": "Memory|Usage (%)"
+               },
+               "mode": "all",
+               "percentileValue": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": -1},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+               "roundDecimals": 2,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Top-N Servers  - Memory Usage (%) on Selected Host",
+               "topOption": "metricsHighestUtilization"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 7,
+               "y": 7
+            },
+            "height": 381,
+            "id": "a3847a07-ac46-4475-9a0c-33d006eeef03",
+            "title": "Top-N Servers  - Memory Usage (%) on Selected Host",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metric": {
+                  "metricKey": "guestfilesystem|percentage_total",
+                  "name": "Guest File System|Utilization (%)"
+               },
+               "mode": "all",
+               "percentileValue": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": -1},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Top-N Servers  - Disk Usage (%) on Selected Host",
+               "topOption": "metricsHighestUtilization"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 4,
+               "y": 7
+            },
+            "height": 381,
+            "id": "d440c054-0c80-4a48-b438-98e8c25b7b1a",
+            "title": "Top-N Servers  - Disk Usage (%) on Selected Host",
+            "type": "ParetoAnalysis"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [
+            {
+               "key": "VMEntityObjectID",
+               "value": "domain-c7"
+            },
+            {
+               "key": "VMEntityVCID",
+               "value": "0496fb65-8af5-43c2-a60b-b289e5f34dd8"
+            }
+         ],
+         "internalId": "resource:id:0_::_",
+         "name": "CLUSTER",
+         "resourceKindKey": "ClusterComputeResource"
+      }],
+      "resourceKind": [
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "HostSystem"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "VirtualMachine"
+         }
+      ]
+   },
+   "uuid": "95fc1b9f-9706-413e-bf09-25c8a9b07b75"
+}
